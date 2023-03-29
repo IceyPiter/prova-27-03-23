@@ -192,7 +192,7 @@ header nav h2 {
     font-weight: bold;
 }
 
-footer {
+.mapa {
     text-align: center;
     display: flex;
     width: 250px;
@@ -213,3 +213,36 @@ footer {
     right: calc(50% - 300px);
     object-fit: cover;
 }
+
+
+    .contato {
+        padding: 60px;
+        position: relative;
+        text-align: right;
+        color: white;
+    }
+    
+    .contato .contatos {
+        position: absolute;
+        z-index: 99;
+        border-radius: 8px;
+        top: calc(50% - 150px);
+        left: calc(20% - 175px);
+        text-align: center;
+        display: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contato .contatos h1 {
+        padding-left: 50px;
+        text-align: left;
+    }
+    
+    .contato .contatos li {
+        font-size: .8rem;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        margin: 15px;
+    }
