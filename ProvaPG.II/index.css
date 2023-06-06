@@ -1,0 +1,25 @@
+:root{
+    --laranja: rgba(201, 91, 2, 0.897);
+}
+
+.bg-orange:hover{
+    background-color: var(--laranja);
+    color: white;
+    border-radius: 5px;
+}
+
+#lmenu a{
+    padding: 0 10px;
+}
+
+.cor-letra-L{
+    color: var(--laranja);
+}
+
+#corL{
+    background-color: var(--laranja);
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: var(--laranja);
+}

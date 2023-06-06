@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="bg-white p-0 position-relative top-0">
+        <nav id="menu" class="navbar navbar-expand-lg bg-light navbar-light p-2 p-lg-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-dark text-uppercase">Live Dinner</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row text-uppercase collapse navbar-collapse bg-light p-2" id="navbarCollapse">
+                <div class="col-6 navbar-nav mr-auto">
+                    <img src="/images/logo.png" class="ms-5 ps-5" alt="LOGO">
+                </div>
+                <div id="lmenu" class="col-6 navbar-nav mr-auto fs-5">
+                    <a href="#" id="corL" class="rounded nav-item nav-link active text-light p-3 bg-orange">HOME</a>
+                    <a href="#" class="nav-item nav-link p-3 bg-orange">MENU</a>
+                    <a href="#about" class="nav-item nav-link p-3 bg-orange">ABOUT</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-3 text-dark" data-bs-toggle="dropdown">PAGES</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item p-2">Reservation</a>
+                            <a href="#" class="dropdown-item p-2">Stuff</a>
+                            <a href="#gallery" class="dropdown-item p-2">Gallery</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link p-3 bg-orange">CONTACT</a>
+                    <a href="#" class="nav-item nav-link p-3 bg-orange">BLOG</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Inicio do CARROSSEL -->
+        <div class="container-fluid p-0 mb-1">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="" src="images/slider-01.jpg" alt="Image" style="width: 1850px;">
+                        <div class="carousel-caption d-flex">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="corL" class="btn btn-primary py-md-3 px-md-5 me-3">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="" src="images/slider-02.jpg" alt="Image" style="width: 1850px;">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="corL" class="btn btn-primary py-md-3 px-md-5 me-3">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="" src="images/slider-03.jpg" alt="Image" style="width: 1850px;">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="corL" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="about" class="container-fluid">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <img src="images/about-bg.jpg" height="75%" alt="">
+                    <div class="row" style="position: relative; top: -600px; right: -190px;">
+                        <div class="col-4 ms-5 pb-5">
+                            <h1>Welcome To <span class="cor-letra-L">Live Dinner Restaurant</span></h1>
+                            <h6>Little Story</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta earum explicabo iusto molestias quasi inventore ipsum velit! Voluptates laudantium maiores consequatur facere perferendis repudiandae quae praesentium nam. Quaerat, modi sint tempore ab tempora reiciendis dignissimos maxime qui ratione nisi earum consectetur autem consequuntur exercitationem obcaecati rem repellat, ullam doloribus quidem eveniet numquam. Asperiores, error molestias quam eum, animi quod beatae iste ratione id eos nobis vel saepe dolorem earum dolores tempore ut libero molestiae ex voluptates dolor? Reiciendis, quasi?</p>
+                            <a href="" id="corL" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                        </div>
+                        <div class="col-2">
+                            <img src="images/about-img.jpg" height="75%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-xxl py-0 mb-2">
+                <div class="container">
+                    <div id="gallery" class="text-center">
+                        <h4 class="top-0">Gallery</h4>
+                        <h6 class="" style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, velit.</h6>
+                    </div>
+                    <div class="row g-4 me-2 mt-4">
+                        <div class="col-lg-4 col-md-6">
+                           <a class="service-item rounded" href="">
+                                  <img class="img-fluid" src="images/gallery-img-01.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a class="service-item rounded" href="">
+                               <img class="img-fluid" src="images/gallery-img-02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a class="service-item rounded" href="">
+                                <img class="img-fluid" src="images/gallery-img-03.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a class="service-item rounded" href="">
+                                <img class="img-fluid" src="images/gallery-img-04.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a class="service-item rounded" href="">
+                                    <img class="img-fluid" src="images/gallery-img-05.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a class="service-item rounded" href="">
+                                <img class="img-fluid" src="images/gallery-img-06.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-xxl py-0 mb-2" style="margin-top: 200px;">
+                <div class="container">
+                    <div id="gallery" class="text-center">
+                        <h3 class="top-0">Costumers Reviews</h3>
+                        <h6 class="" style="color:gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, velit.</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a class="service-item rounded" href="">
+                               <img class="img-fluid mt-5" src="images/quotations-button.png" alt="" style="margin-left: 500px;">
+                        </a>
+                        
+                     </div>
+                     <div class="text-center">
+                        <h3 class="cor-letra-L top-0 mt-4">STEVE FONSI</h3>
+                        <h6 style="color: gray">Web Designer</h6>
+                    </div>
+                    <div class="text-center" style="color: gray">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cupiditate similique odit recusandae, id enim obcaecati, necessitatibus asperiores    consequuntur culpa cumque doloremque libero adipisci tempora quisquam perferendis temporibus corporis,
+                            quibusdam tenetur? Voluptas totam fuga ut reiciendis numquam rem minima ad accusantium at?
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
